@@ -35,6 +35,14 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Try out the progressive web app
+## Login infomation for both development and production
 
-The app is deployed at [netlify](nifty-swartz-118722.netlify.app)
+```
+name: Tester                      # Note: You can enter name as you want.
+email: tester@impactterra.com
+
+```
+
+## Try out live site
+
+The app is deployed at netlify [live site](https://fervent-sammet-a8f50f.netlify.app)
