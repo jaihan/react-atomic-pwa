@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
 import firebase from "../../lib/firebase";
 import { setItem } from "../atoms/storage";
-import GenerateSecret from "../atoms/generateSecret";
 import { LabelInput } from "../molecules/labelInput";
 
 interface IProps {}
@@ -29,9 +28,7 @@ class SignIn extends React.Component<IProps, IStates> {
     e.preventDefault();
     const { email, name }: IStates = this.state;
     try {
-      await firebase
-        .auth()
-        .createUserWithEmailAndPassword(email, GenerateSecret());
+      await firebase.auth().signInWithEmailAndPassword(email, "serect123");
       setItem("authorization", "secured");
       setItem("name", name);
       window.location.reload();
