@@ -1,7 +1,5 @@
 # Progessive web app build with React
 
-## Getting started
-
 ## Run the app in development mode
 
 First, clone the projecct
@@ -35,6 +33,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Try out the progressive web app
+## Features
 
-The app is deployed at [netlify](nifty-swartz-118722.netlify.app)
+- Login functionalities
+- Simple home page with card-like content
+
+## Try out live site
+
+The app is deployed at netlify [live site](https://fervent-sammet-a8f50f.netlify.app)
