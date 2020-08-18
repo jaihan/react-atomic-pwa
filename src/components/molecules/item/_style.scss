@@ -1,0 +1,11 @@
+.message-item {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .message-item {
+    margin-left: 25% !important;
+    width: 50% !important;
+  }
+}

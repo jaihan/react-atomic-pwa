@@ -1,0 +1,25 @@
+.signin-page {
+  @media only screen and (min-width: 600px) {
+    .content {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .content {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .content {
+      width: 30%;
+    }
+  }
+  .img-header {
+    margin-top: 2em;
+    margin-left: 25%;
+    width: 50%;
+    margin-right: 25%;
+  }
+}
