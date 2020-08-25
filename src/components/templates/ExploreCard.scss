@@ -1,0 +1,21 @@
+.t_explore {
+  margin-top: 2em;
+  .img-explore {
+    height: 20vh !important;
+    width: 100% !important;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: white;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    background-color: white;
+    padding: 2px;
+  }
+}

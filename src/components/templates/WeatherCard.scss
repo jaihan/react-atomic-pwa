@@ -1,0 +1,24 @@
+.t_weather-card {
+  height: 16vh;
+  margin-top: 2em !important;
+  .cloud {
+    .lbl {
+      color: gray;
+    }
+    .celsius {
+      font-size: 2rem !important;
+    }
+  }
+  .rain {
+    .lbl {
+      color: gray;
+    }
+    .select {
+      color: green;
+      border: hidden;
+      border-radius: 15px;
+      padding: 5px;
+      background: #f0f8ff;
+    }
+  }
+}

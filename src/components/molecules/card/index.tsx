@@ -1,29 +1,200 @@
 import React from "react";
-import { Card } from "semantic-ui-react";
-import { Img } from "../../atoms/image";
+import { Card, Image } from "semantic-ui-react";
 
-const imageUrl = process.env.REACT_APP_IMAGE_URL || "";
+import "./_style.scss";
+
+const imageUrl = "/armo.jpg";
 function SimpleCard() {
   return (
-    <Card.Group itemsPerRow={4} doubling centered>
-      <Card>
-        <Card.Content>
-          <Card.Header>Matthew</Card.Header>
-          <Card.Description>
-            Matthew is a data analsyt living in Yangon.
-          </Card.Description>
+    <Card.Group itemsPerRow={4} doubling centered className="m_simple-item">
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
         </Card.Content>
-        <Img src={imageUrl} alt="data" />
+      </Card>
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
       </Card>
 
-      <Card>
-        <Card.Content>
-          <Card.Header>Steven</Card.Header>
-          <Card.Description>
-            Steven is a software engineer living in Yangon.
-          </Card.Description>
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
         </Card.Content>
-        <Img src={imageUrl} alt="software" />
+      </Card>
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
+      </Card>
+
+      <Card className="card-item">
+        <Image src={imageUrl} wrapped ui={false} className="img" />
+        <label className="lbl-card-status">5 hrs ago</label>
+        <Card.Content className="content">
+          <Card.Content>
+            <h5>Armo Compound</h5>
+          </Card.Content>
+          <Card.Content>
+            <span className="farm">Maw Maw Farming Supplies</span>
+          </Card.Content>
+          <Card.Content>
+            <span className="price">30000 MMK</span>
+          </Card.Content>
+        </Card.Content>
       </Card>
     </Card.Group>
   );

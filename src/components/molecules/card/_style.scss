@@ -1,0 +1,36 @@
+.m_simple-item {
+  margin-bottom: 5em !important;
+  .card-item {
+    box-shadow: none !important;
+    .img {
+      box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5 !important;
+    }
+  }
+
+  .lbl-card-status {
+    font-size: 0.8rem;
+    position: absolute;
+    font-weight: bold;
+    color: gray;
+    margin-left: 0.5em;
+    background: #fffafa;
+    border-radius: 0.4em;
+    position: absolute;
+    bottom: 9em !important;
+    left: 0;
+  }
+  @media only screen and (max-width: 320px) {
+    .lbl-card-status {
+      bottom: 11.8em !important;
+    }
+  }
+  .content {
+    .farm {
+      font-size: 0.63rem;
+      color: gray;
+    }
+    .price {
+      color: green;
+    }
+  }
+}

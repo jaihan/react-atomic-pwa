@@ -1,13 +1,21 @@
-.header-menu {
-  padding: 0.5em;
-}
-.mobile-menu {
-  padding: 0.5em;
-}
+.t_header-menu {
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .small-screen {
+      display: none;
+    }
+  }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .small-screen {
-    display: none;
+  .selected {
+    color: green;
+  }
+
+  .phone-icon {
+    background: #f0f8ff;
+    padding: 0.2em !important;
+  }
+
+  .setting-icon {
+    background: #f0f8ff;
   }
 }
