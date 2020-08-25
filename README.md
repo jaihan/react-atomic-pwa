@@ -40,4 +40,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Try out live site
 
-The app is deployed at netlify [live site](https://fervent-sammet-a8f50f.netlify.app)
+The app is deployed at netlify [live site](https://pedantic-allen-2ef8f9.netlify.app/).
+You can download mobile app [here](https://progressiveapp.store/mypwa/React-atomic-pwa).
