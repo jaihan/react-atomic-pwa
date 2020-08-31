@@ -9,12 +9,8 @@ function SignInPage() {
   return (
     <div className="signin-page">
       <Container className="content">
-        <Image src="/impactterra.png" size="small" className="img-header" />
-        <Paragraph
-          text={
-            "Impact Terra provides its services through the Golden Paddy DigitalPlatform. Farmers connect to the platform via an Android application, while Impact Terra's team and service providers connect via web-portals."
-          }
-        />
+        <Image src="/logo.png" size="small" className="img-header" />
+        <Paragraph text={""} />
         <SignIn />
       </Container>
     </div>
